@@ -1,2 +1,5 @@
 ref/
-docker_image/
+docker_image/sgrna_tools
+results/
+work/
+*.nextflow*
