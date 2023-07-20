@@ -27,8 +27,6 @@ Final output: TPM_expression_matrix_TCGA.tsv
 Requirement:
 All the required software has been packed in the following docker image: 
 		https://hub.docker.com/r/mxdistefano/sgrna_tools/tags  (docker pull mxdistefano/sgrna_tools:latest)
+		or it can be build from the dockerfile in the folder 'docker_image'
 
-	or it can be build from the dockerfile in the folder 'docker_image'
-
-Reference sequence and annotation can be obtained from:
-		https://www.gencodegenes.org/human/
+Reference sequence and annotation can be obtained from:	https://www.gencodegenes.org/human/
