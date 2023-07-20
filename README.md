@@ -1,6 +1,7 @@
 # sgrna_test
 
 Pipeline for processing sgRNA sequences as indicated. Consist in the following steps:
+
 1-Mapping: input fasta file to GRCh38 genome
 	-software used: pblat . Only allowed one mismatch. 
 	-Download GRCh38 fasta reference from https://www.gencodegenes.org/human/ and reference path in configuration file 'nextflow.config'
@@ -30,3 +31,9 @@ All the required software has been packed in the following docker image:
 		or it can be build from the dockerfile in the folder 'docker_image'
 
 Reference sequence and annotation can be obtained from:	https://www.gencodegenes.org/human/
+
+
+##Example
+#Nextflow version I used
+NXF_VER="23.04.2.5870"
+sudo nextflow sgrna_characterization.nf
